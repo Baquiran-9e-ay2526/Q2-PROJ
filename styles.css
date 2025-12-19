@@ -1,37 +1,59 @@
 body {
   font-family:"Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    background-image: url(OBMCGH.jpg);
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  height: 100%;
 }
 table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        border: 1px solid rgb(113, 121, 166);          
-      }
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(113, 121, 166);          
+}
     
-
 td {
-        border: 1px solid #a8bce9;
-        text-align: left;
-        padding: 8px;
-      }
+  border: 1px solid #a8bce9;
+  text-align: left;
+  padding: 8px;
+}
       
 tr:nth-child(even) {
-        background-color: #c0ccecce;
-      }
+  background-color: #c0ccecce;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content-image {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.hero-section {
+  padding: 50px;
+}
+
+.col-md-3 {
+  text-align: center;
+}
+
+.campuses {
+  padding: 50px;
 }
