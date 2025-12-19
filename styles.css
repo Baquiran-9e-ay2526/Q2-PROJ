@@ -35,7 +35,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 40px;
+  border-radius: 50px;
 }
 
 .content-image {
@@ -53,6 +53,10 @@ p {
 
 .col-md-3 {
   text-align: center;
+}
+
+.campuses {
+  padding: 50px;
 }
 
 .campuses {
