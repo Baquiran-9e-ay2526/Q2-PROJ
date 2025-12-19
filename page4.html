@@ -3,85 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us Page</title>
-    <link rel="stylesheet" href="styles.css">
-     <!-- BOOTSTRAP -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-       crossorigin="anonymous"></script>
+    <title>OBMC LP</title>        
+    <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&family=Story+Script&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)"><img src="OBMC 60 Icon_Circle.png" width="50px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page2.html">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page3.html">Enroll</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page4.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page5.html">Contact Us</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="text" placeholder="Search">
-              <button class="btn btn-info" type="button">Search</button>
-            </form>
-          </div>
-        </div>
+            <a class="navbar-brand" href="javascript:void(0)"><img src="OBMC 60 Icon_Circle.png" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Courses Offer</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Enroll Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page4.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page5.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+             </div>
+         </div>
       </nav>
 
-      <h1>CONTACTS</h1>
-    </div>
-    <div class="container">
-        <div class="row">
-       <!-- EMAIL -->
-                <div class="email mb-3">
-                <label class="form-label" for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-            </div>
+    <div class="container-fluid mt-3">
 
-                <!-- PASSWORD -->
-                <div class="password mb-3">
-                <label class="form-label" for="inputPassword">Password</label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-            </div>  
+    <!-- MAIN SECTION -->
+     <div class="vertical-layout bg-white p-3 mb-3 rounded">
+        <h2>Contact Us</h2>
+        <p>If you have questions, <br> need more information, or want to schedule a visit, <br> we are here to help.   </p>
+    <form>
+                <!-- Full Name -->
+                <div class="Full Name mb-3">
+                    <label class="form-label" for="inputFullName">Full Name</label>
+                    <input type="Name" class="form-control" id="inputFullName" placeholder="Full Name">
+                </div>
 
-                <!-- CHECKBOX -->
-                <div class="remember mb-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="checkRemember">
-                        <label class="form-check-label" for="checkRemember">Remember me</label>
-                    </div>
+                <!-- Phone Number -->
+                <div class="Phone mb-3">
+                    <label class="form-label" for="inputPhone">Phone Number</label>
+                    <input type="Phone" class="form-control" id="inputPhone" placeholder="Phone Number">
+                </div>
+
+                <!-- Email -->
+                <div class="Email mb-3">
+                    <label class="form-label" for="inputEmail">Email</label>
+                    <input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+
+                 <!-- Message -->
+                <div class="Message mb-3">
+                    <label class="form-label" for="inputMessage">Message</label>
+                    <textarea id="myTextBox" rows="4" cols="50" placeholder="Message" class="form-control" id="inputEmail"></textarea>
                 </div>
 
                 <!-- BUTTON -->
-                <button type="submit" class="btn btn-danger">Sign in</button>
+                <button type="submit" class="btn btn-primary">Send</button>
     </form>
+     </div>
 
-    </p>
-    <div>
-    </div>
 
+    <!-- Footer -->
     <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
         &copy; 2025 Copyright
-            </footer>
-
+    </footer>
 </body>
-
 </html>
